@@ -2,7 +2,7 @@
   "name": "almighty-react-library",
   "version": "0.0.1",
   "description": "A React Library Used By Almighty Design and Development",
-  "main": "src/index.js",
+  "main": "src/component.js",
   "scripts": {
     "dev": "parcel serve src/index.html --open"
   },
