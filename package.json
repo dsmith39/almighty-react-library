@@ -1,22 +1,28 @@
 {
   "name": "almighty-react-library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React Library Used By Almighty Design and Development",
-  "main": "src/component.js",
+  "source": "src/component.ts",
+  "main": "dist/component.js",
+  "types": "dist/component.d.ts",
   "scripts": {
-    "dev": "parcel serve src/index.html --open"
+    "dev": "parcel serve src/index.html --open",
+    "build": "rm -rf dist && parcel build src/component.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dsmith39/almighty-react-library.git"
   },
+  "homepage": "https://github.com/dsmith39/almighty-react-library#readme",
   "author": "Dillon Smith",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dsmith39/almighty-react-library/issues"
   },
-  "homepage": "https://github.com/dsmith39/almighty-react-library#readme",
   "devDependencies": {
+    "@parcel/packager-ts": "^2.0.1",
+    "@parcel/transformer-typescript-tsc": "^2.0.1",
+    "@parcel/transformer-typescript-types": "^2.0.1",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "parcel": "^2.0.0-rc.0",
