@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/dsmith39/almighty-react-library/issues"
   },
-  "homepage": "https://github.com/dsmith39/almighty-react-library#readme"
+  "homepage": "https://github.com/dsmith39/almighty-react-library#readme",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
