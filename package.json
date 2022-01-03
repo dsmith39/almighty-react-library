@@ -1,0 +1,19 @@
+{
+  "name": "almighty-react-library",
+  "version": "0.0.1",
+  "description": "A React Library Used By Almighty Design and Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsmith39/almighty-react-library.git"
+  },
+  "author": "Dillon Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsmith39/almighty-react-library/issues"
+  },
+  "homepage": "https://github.com/dsmith39/almighty-react-library#readme"
+}
