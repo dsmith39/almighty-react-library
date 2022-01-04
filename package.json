@@ -7,7 +7,7 @@
   "types": "dist/component.d.ts",
   "scripts": {
     "dev": "parcel serve src/index.html --open",
-    "build": "rm -rf dist && parcel build src/component.ts"
+    "build": "rm dist/component.* && rm dist/index.* && parcel build src/component.ts"
   },
   "repository": {
     "type": "git",

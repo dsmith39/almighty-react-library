@@ -1,0 +1,23 @@
+{
+  "name": "almighty-react-components",
+  "version": "0.0.1",
+  "description": "The component library used by Almighty Design and Development",
+  "main": "component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsmith39/almighty-react-components.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Dillon Smith",
+  "license": "MIT",
+  "types": "./component.d.ts",
+  "bugs": {
+    "url": "https://github.com/dsmith39/almighty-react-components/issues"
+  },
+  "homepage": "https://github.com/dsmith39/almighty-react-components#readme"
+}
