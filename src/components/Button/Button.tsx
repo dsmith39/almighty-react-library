@@ -5,6 +5,13 @@ export interface ButtonProps {
   label: string;
 }
 
+/**
+ * @function Button
+ * @param {string} label the text for the button
+ * @example
+ * <Button label="Button Text" />
+ */
+
 const Button = (props: ButtonProps) => {
   return <button>{props.label}</button>;
 };
