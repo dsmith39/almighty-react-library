@@ -1,9 +1,19 @@
 import React from "react";
+import styled from "styled-components";
 
 export interface ButtonProps {
   /** The Button Text */
   label: string;
+  color?: string;
 }
+
+export interface StyledButtonProps {
+  color?: string;
+}
+
+const StyledButton = styled.button<StyledButtonProps>`
+  color: ${(props) => props.color || "black"};
+`;
 
 /**
  * @function Button
@@ -13,7 +23,7 @@ export interface ButtonProps {
  */
 
 const Button = (props: ButtonProps) => {
-  return <button>{props.label}</button>;
+  return <StyledButton color={props.color}>{props.label}</StyledButton>;
 };
 
 export default Button;
