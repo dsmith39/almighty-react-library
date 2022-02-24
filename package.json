@@ -1,6 +1,6 @@
 {
   "name": "almighty-react-library",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A React Library Used By Almighty Design and Development",
   "source": "src/component.ts",
   "main": "dist/component.js",
