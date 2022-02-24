@@ -7,13 +7,14 @@
   "types": "dist/component.d.ts",
   "scripts": {
     "dev": "parcel serve src/index.html --open",
-    "build": "rm dist/component.* && rm dist/index.* && parcel build src/component.ts"
+    "build": "npm run cleanup && parcel build src/component.ts",
+    "cleanup": "rm dist/component.*"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dsmith39/almighty-react-library.git"
   },
-  "homepage": "https://github.com/dsmith39/almighty-react-library#readme",
+  "homepage": "https://github.com/dsemith39/almighty-react-library#readme",
   "author": "Dillon Smith",
   "license": "MIT",
   "bugs": {

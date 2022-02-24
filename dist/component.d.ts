@@ -1,6 +1,7 @@
 interface ButtonProps {
     /** The Button Text */
     label: string;
+    color?: string;
 }
 /**
  * @function Button
