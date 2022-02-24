@@ -1,6 +1,6 @@
 {
   "name": "almighty-react-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The component library used by Almighty Design and Development",
   "main": "component.js",
   "scripts": {
